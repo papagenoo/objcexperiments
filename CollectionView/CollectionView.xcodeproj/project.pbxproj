@@ -23,6 +23,8 @@
 		50107FE31922DDFA0055E35B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50107FE11922DDFA0055E35B /* InfoPlist.strings */; };
 		50107FE51922DDFA0055E35B /* CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50107FE41922DDFA0055E35B /* CollectionViewTests.m */; };
 		50107FF01922E43D0055E35B /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50107FEF1922E43D0055E35B /* Cell.m */; };
+		6F7B424B1923ABD90088D11C /* HeaderClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B424A1923ABD90088D11C /* HeaderClass.m */; };
+		6FFEA8AB19239BDE0045D4B6 /* Xcode_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FFEA8AA19239BDE0045D4B6 /* Xcode_48px.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		50107FE41922DDFA0055E35B /* CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewTests.m; sourceTree = "<group>"; };
 		50107FEE1922E43D0055E35B /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		50107FEF1922E43D0055E35B /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		6F7B42491923ABD90088D11C /* HeaderClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderClass.h; path = ../HeaderClass.h; sourceTree = "<group>"; };
+		6F7B424A1923ABD90088D11C /* HeaderClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderClass.m; path = ../HeaderClass.m; sourceTree = "<group>"; };
+		6FFEA8AA19239BDE0045D4B6 /* Xcode_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xcode_48px.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,7 @@
 		50107FAA1922DDF90055E35B = {
 			isa = PBXGroup;
 			children = (
+				6FFEA8AA19239BDE0045D4B6 /* Xcode_48px.png */,
 				50107FBC1922DDFA0055E35B /* CollectionView */,
 				50107FDE1922DDFA0055E35B /* CollectionViewTests */,
 				50107FB51922DDFA0055E35B /* Frameworks */,
@@ -117,6 +123,8 @@
 		50107FBC1922DDFA0055E35B /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				6F7B42491923ABD90088D11C /* HeaderClass.h */,
+				6F7B424A1923ABD90088D11C /* HeaderClass.m */,
 				50107FC51922DDFA0055E35B /* AppDelegate.h */,
 				50107FC61922DDFA0055E35B /* AppDelegate.m */,
 				50107FC81922DDFA0055E35B /* Main_iPhone.storyboard */,
@@ -237,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50107FCD1922DDFA0055E35B /* Main_iPad.storyboard in Resources */,
+				6FFEA8AB19239BDE0045D4B6 /* Xcode_48px.png in Resources */,
 				50107FD21922DDFA0055E35B /* Images.xcassets in Resources */,
 				50107FCA1922DDFA0055E35B /* Main_iPhone.storyboard in Resources */,
 				50107FC11922DDFA0055E35B /* InfoPlist.strings in Resources */,
@@ -261,6 +270,7 @@
 				50107FD01922DDFA0055E35B /* ViewController.m in Sources */,
 				50107FF01922E43D0055E35B /* Cell.m in Sources */,
 				50107FC71922DDFA0055E35B /* AppDelegate.m in Sources */,
+				6F7B424B1923ABD90088D11C /* HeaderClass.m in Sources */,
 				50107FC31922DDFA0055E35B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,9 +361,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos7.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -384,8 +394,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos7.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -476,6 +486,7 @@
 				50107FEA1922DDFA0055E35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50107FEB1922DDFA0055E35B /* Build configuration list for PBXNativeTarget "CollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +495,7 @@
 				50107FED1922DDFA0055E35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

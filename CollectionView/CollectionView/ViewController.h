@@ -11,7 +11,5 @@
 @interface ViewController : UICollectionViewController
 
 @property (strong, nonatomic) NSArray * dataArray;
-//@property (weak, nonatomic) IBOutlet UILabel *myLabel;
-
 
 @end

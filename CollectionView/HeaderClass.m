@@ -1,26 +1,14 @@
 //
-//  Cell.m
+//  HeaderClass.m
 //  CollectionView
 //
-//  Created by Max Boytsov on 14/05/14.
+//  Created by nt on 14/05/14.
 //  Copyright (c) 2014 Max. All rights reserved.
 //
 
-#import "Cell.h"
+#import "HeaderClass.h"
 
-@implementation Cell
-
-- (void)setName:(NSString *)name
-{
-    _name = name;
-    self.myLabel.text = name;
-}
-
-- (void)setPic:(NSString *)pic
-{
-    _pic = pic;
-    self.image.image = [UIImage imageNamed:pic];
-}
+@implementation HeaderClass
 
 - (id)initWithFrame:(CGRect)frame
 {
