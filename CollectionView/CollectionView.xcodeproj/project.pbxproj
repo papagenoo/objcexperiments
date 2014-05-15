@@ -35,6 +35,20 @@
 			remoteGlobalIDString = 50107FB21922DDFA0055E35B;
 			remoteInfo = CollectionView;
 		};
+		504C623B1924212400E1AE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504C62361924212200E1AE8D /* EditTableTutorial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504C61FB1924212100E1AE8D;
+			remoteInfo = EditTableTutorial;
+		};
+		504C623D1924212400E1AE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504C62361924212200E1AE8D /* EditTableTutorial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504C621F1924212200E1AE8D;
+			remoteInfo = EditTableTutorialTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +74,7 @@
 		50107FE41922DDFA0055E35B /* CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewTests.m; sourceTree = "<group>"; };
 		50107FEE1922E43D0055E35B /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		50107FEF1922E43D0055E35B /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		504C62361924212200E1AE8D /* EditTableTutorial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EditTableTutorial.xcodeproj; path = ../EditTableTutorial/EditTableTutorial.xcodeproj; sourceTree = "<group>"; };
 		6F7B42491923ABD90088D11C /* HeaderClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderClass.h; path = ../HeaderClass.h; sourceTree = "<group>"; };
 		6F7B424A1923ABD90088D11C /* HeaderClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderClass.m; path = ../HeaderClass.m; sourceTree = "<group>"; };
 		6FFEA8AA19239BDE0045D4B6 /* Xcode_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xcode_48px.png; sourceTree = "<group>"; };
@@ -92,6 +107,7 @@
 		50107FAA1922DDF90055E35B = {
 			isa = PBXGroup;
 			children = (
+				504C62361924212200E1AE8D /* EditTableTutorial.xcodeproj */,
 				6FFEA8AA19239BDE0045D4B6 /* Xcode_48px.png */,
 				50107FBC1922DDFA0055E35B /* CollectionView */,
 				50107FDE1922DDFA0055E35B /* CollectionViewTests */,
@@ -168,6 +184,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		504C62371924212200E1AE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504C623C1924212400E1AE8D /* EditTableTutorial.app */,
+				504C623E1924212400E1AE8D /* EditTableTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +256,12 @@
 			mainGroup = 50107FAA1922DDF90055E35B;
 			productRefGroup = 50107FB41922DDFA0055E35B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 504C62371924212200E1AE8D /* Products */;
+					ProjectRef = 504C62361924212200E1AE8D /* EditTableTutorial.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				50107FB21922DDFA0055E35B /* CollectionView */,
@@ -238,6 +269,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		504C623C1924212400E1AE8D /* EditTableTutorial.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = EditTableTutorial.app;
+			remoteRef = 504C623B1924212400E1AE8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		504C623E1924212400E1AE8D /* EditTableTutorialTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EditTableTutorialTests.xctest;
+			remoteRef = 504C623D1924212400E1AE8D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		50107FB11922DDFA0055E35B /* Resources */ = {
